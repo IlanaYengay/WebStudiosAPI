@@ -13,7 +13,7 @@
 
 1. Склонируйте репозиторий:
    ```
-   git clone https://github.com/WebStudiosAPI.git
+   git clone git@github.com:IlanaYengay/WebStudiosAPI.git
    ```
 2. Зайдите в проект
     ```
