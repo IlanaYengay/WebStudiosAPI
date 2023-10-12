@@ -44,7 +44,7 @@
    ```
    ./manage.py runserver 
    ```
-8. Запустите celery:
+8. Запустите celery во втором терминале:
    ```
    celery -A WebStudios worker --loglevel=info
    ```
