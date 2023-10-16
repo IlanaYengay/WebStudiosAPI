@@ -27,10 +27,8 @@ urlpatterns = [
     path('api/orders/', include('apps.orders.urls')),
     path('api/accounts/', include('apps.accounts.urls')),
     path('api/profiles/', include('apps.profiles.urls')),
-    path('api/authtoken/', include('djoser.urls.authtoken')),
     path('api/token/', TokenObtainPairView.as_view(), name='token_refresh'),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
-
 ]
 
 urlpatterns += yasg.urlpatterns
